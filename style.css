@@ -1,48 +1,53 @@
-.body{
-
-    display: grid;
-    grid-gap: 5rem;
-    grid-template-areas: 
-        "calculadora1"
-        "calculadora2"
-        "calculadora3"
-        "calculadora4"
-        "p zero i i";
+body{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 }
 
-.calculadora1{
-    grid-area: calculadora1;
-}
-.calculadora2{
-    grid-area: calculadora2;
-}
-.calculadora3{
-    grid-area: calculadora3;
-}
-.calculadora4{
-    grid-area: calculadora4;
-}
-.p{
-    grid-area: p;
-}
-.zero{
-    grid-area: zero;
-}
-.i{
-    grid-area: i;
-}
 
 .container{
+    background-color: #364351;
     text-align: center;
-    width: 80%;
-    background-color: gray;
-    margin: auto;
+    margin: auto; 
+    border: 2px solid #364351;
+    border-radius: 10px;
+ 
     
 }
 
-
 button{
-    width: 70px;
-    height: 70px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.i{
+    width: 126px;
+    background-color: #c20202;
+}
+
+.exibir{
+    width: 265px;
+    height: 100px;
+    background-color: #364351;
+}
+
+.buttonColor{
+    background-color: #748a8b;
+}
+
+.colorBo{
+    background-color: #364351;
 }
 

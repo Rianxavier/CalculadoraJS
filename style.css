@@ -1,0 +1,48 @@
+.body{
+
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-areas: 
+        "calculadora1"
+        "calculadora2"
+        "calculadora3"
+        "calculadora4"
+        "p zero i i";
+}
+
+.calculadora1{
+    grid-area: calculadora1;
+}
+.calculadora2{
+    grid-area: calculadora2;
+}
+.calculadora3{
+    grid-area: calculadora3;
+}
+.calculadora4{
+    grid-area: calculadora4;
+}
+.p{
+    grid-area: p;
+}
+.zero{
+    grid-area: zero;
+}
+.i{
+    grid-area: i;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+    
+}
+
+
+button{
+    width: 70px;
+    height: 70px;
+}
+

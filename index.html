@@ -9,37 +9,38 @@
 </head>
 <body>
     <div class="container">
-        <div class="exibir"></div>
+        <div class="exibir" id="resultado"></div>
         <div class="calculadora1">
-            <button class="buttonColor" type="button">AC</button>
-            <button class="buttonColor" type="button">C</button>
-            <button class="buttonColor" type="button">%</button>
-            <button class="buttonColor" type="button"  >/</button>
+            <button class="AC" type="button" onclick="clean()">AC</button>
+            <button class="buttonColor" type="button" onclick="backspace()">C</button>
+            
+            <button class="buttonColor" type="button" onclick="insert('/')" >/</button>
         </div>
         <div class="calculadora2">
-            <button class="colorBo" type="button">7</button>
-            <button class="colorBo" type="button">8</button>
-            <button class="colorBo" type="button">9</button>
-            <button class="buttonColor" type="button">X</button>
+            <button class="colorBo" type="button" onclick="insert('7')">7</button>
+            <button class="colorBo" type="button" onclick="insert('8')">8</button>
+            <button class="colorBo" type="button" onclick="insert('9')">9</button>
+            <button class="buttonColor" type="button" onclick="insert('*')">X</button>
         </div>
         <div class="calculadora3">
-            <button class="colorBo" type="button">4</button>
-            <button class="colorBo" type="button">5</button>
-            <button class="colorBo" type="button">6</button>
-            <button class="buttonColor" type="button">-</button>
+            <button class="colorBo" type="button" onclick="insert('4')">4</button>
+            <button class="colorBo" type="button" onclick="insert('5')">5</button>
+            <button class="colorBo" type="button" onclick="insert('6')">6</button>
+            <button class="buttonColor" type="button" onclick="insert('-')">-</button>
         </div>
         <div class="calculadora4">
-            <button class="colorBo" type="button">1</button>
-            <button class="colorBo" type="button">2</button>
-            <button class="colorBo" type="button">3</button>
-            <button class="buttonColor" type="button">+</button>
+            <button class="colorBo" type="button" onclick="insert('1')">1</button>
+            <button class="colorBo" type="button" onclick="insert('2')">2</button>
+            <button class="colorBo" type="button" onclick="insert('3')">3</button>
+            <button class="buttonColor" type="button" onclick="insert('+')">+</button>
         </div>
         <div class="calculadora5">
-            <button class="colorBo" type="button">.</button> 
-            <button class="colorBo" type="button">0</button>
-            <button class="i" type="button">=</button>
+            <button class="colorBo" type="button" onclick="insert('.')">.</button> 
+            <button class="colorBo" type="button" onclick="insert('0')">0</button>
+            <button class="igual" type="button" onclick="confirma()">=</button>
            
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>

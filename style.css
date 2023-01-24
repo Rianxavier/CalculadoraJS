@@ -14,9 +14,9 @@ body{
     background-color: #364351;
     text-align: center;
     margin: auto; 
-    border: 2px solid #364351;
+    border: 2px solid black;
     border-radius: 10px;
- 
+    padding-bottom: 2px;
     
 }
 
@@ -25,22 +25,40 @@ button{
     width: 60px;
     height: 60px;
     margin: 1px;
-    border: 1px solid black;
+    border: 2px solid black;
     color: white;
     font-weight: bolder;
     font-size: 15px;
     cursor: pointer;
 }
 
-.i{
+.igual{
     width: 126px;
     background-color: #c20202;
 }
 
+.AC{
+    width: 126px;
+    background-color: #748a8b;
+}
+
 .exibir{
+    font-size: 30px;
+    color: rgb(192, 190, 190);
+
     width: 265px;
-    height: 100px;
+    height: 90px;
     background-color: #364351;
+
+    border-radius: 12px 12px  0px 0px;
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    top: -5px;
+    border-top:2px solid black;;
+    border-bottom: 2px solid #A9A9A9;
 }
 
 .buttonColor{

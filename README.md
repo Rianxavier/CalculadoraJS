@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 📋 Layout
-- [Visite o projeto online](rianxavier.github.io/CalculadoraJS/)
+- [Visite o projeto online](https://rianxavier.github.io/CalculadoraJS/)
 
 <p align="center">
   <img alt="Layout da Calculadora" src="img/calc.jpg">
